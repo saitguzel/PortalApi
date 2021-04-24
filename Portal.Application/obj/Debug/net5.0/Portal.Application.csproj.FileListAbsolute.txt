@@ -1,0 +1,17 @@
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/bin/Debug/net5.0/Portal.Application.deps.json
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/bin/Debug/net5.0/Portal.Application.dll
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/bin/Debug/net5.0/ref/Portal.Application.dll
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/bin/Debug/net5.0/Portal.Application.pdb
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/obj/Debug/net5.0/Portal.Application.csprojAssemblyReference.cache
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/obj/Debug/net5.0/Portal.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/obj/Debug/net5.0/Portal.Application.AssemblyInfoInputs.cache
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/obj/Debug/net5.0/Portal.Application.AssemblyInfo.cs
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/obj/Debug/net5.0/Portal.Application.csproj.CoreCompileInputs.cache
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/obj/Debug/net5.0/Portal.Application.dll
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/obj/Debug/net5.0/ref/Portal.Application.dll
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/obj/Debug/net5.0/Portal.Application.pdb
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/bin/Debug/net5.0/Portal.Domain.dll
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/bin/Debug/net5.0/Portal.Infrastructure.dll
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/bin/Debug/net5.0/Portal.Infrastructure.pdb
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/bin/Debug/net5.0/Portal.Domain.pdb
+/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/obj/Debug/net5.0/Portal.Application.csproj.CopyComplete
