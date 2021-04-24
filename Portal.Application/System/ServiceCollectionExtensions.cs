@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Portal.Infrastructure.Persistence;
 using Portal.Infrastructure.Persistence.EntityFramework;
+using Microsoft.OpenApi.Models;
 
 namespace Portal.Application.System
 {
@@ -22,5 +23,19 @@ namespace Portal.Application.System
             services.AddScoped<DbContext>(provider => provider.GetService<PortalDbContext>());
             return services;
         }
+
+        public static IServiceCollection IntegrateSwagger(this IServiceCollection services, IConfiguration configuration)
+        {   
+            services.AddSwaggerGen(options =>{
+                options.SwaggerDoc("v1", new OpenApiInfo{
+                    Title=configuration["Swagger:Title"],
+                    Version = configuration["Swagger:Version"],
+                    Description = configuration["Swagger:Description"]
+                });
+                options.CustomOperationIds(x =>x.GroupName);
+            }) ;
+            return services;   
+        }
+
 	}
 }
