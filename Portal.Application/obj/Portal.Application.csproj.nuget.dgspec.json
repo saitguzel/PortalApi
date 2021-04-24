@@ -1,36 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/Portal.Application.csproj": {}
+    "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Application\\Portal.Application.csproj": {}
   },
   "projects": {
-    "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/Portal.Application.csproj": {
+    "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Application\\Portal.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/Portal.Application.csproj",
+        "projectUniqueName": "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Application\\Portal.Application.csproj",
         "projectName": "Portal.Application",
-        "projectPath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/Portal.Application.csproj",
-        "packagesPath": "/home/guzel/.nuget/packages/",
-        "outputPath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Application/obj/",
+        "projectPath": "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Application\\Portal.Application.csproj",
+        "packagesPath": "C:\\Users\\omer_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/home/guzel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\omer_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Infrastructure/Portal.Infrastructure.csproj": {
-                "projectPath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Infrastructure/Portal.Infrastructure.csproj"
+              "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Infrastructure\\Portal.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Infrastructure\\Portal.Infrastructure.csproj"
               }
             }
           }
@@ -49,6 +52,10 @@
               "target": "Package",
               "version": "[5.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -64,10 +71,6 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[5.0.0, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -85,29 +88,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Domain/Portal.Domain.csproj": {
+    "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Domain\\Portal.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Domain/Portal.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Domain\\Portal.Domain.csproj",
         "projectName": "Portal.Domain",
-        "projectPath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Domain/Portal.Domain.csproj",
-        "packagesPath": "/home/guzel/.nuget/packages/",
-        "outputPath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Domain/obj/",
+        "projectPath": "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Domain\\Portal.Domain.csproj",
+        "packagesPath": "C:\\Users\\omer_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/home/guzel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\omer_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -140,37 +146,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Infrastructure/Portal.Infrastructure.csproj": {
+    "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Infrastructure\\Portal.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Infrastructure/Portal.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Infrastructure\\Portal.Infrastructure.csproj",
         "projectName": "Portal.Infrastructure",
-        "projectPath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Infrastructure/Portal.Infrastructure.csproj",
-        "packagesPath": "/home/guzel/.nuget/packages/",
-        "outputPath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Infrastructure\\Portal.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\omer_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/home/guzel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\omer_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Domain/Portal.Domain.csproj": {
-                "projectPath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Domain/Portal.Domain.csproj"
+              "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Domain\\Portal.Domain.csproj": {
+                "projectPath": "C:\\Users\\omer_\\Source\\Repos\\PortalApi\\Portal.Domain\\Portal.Domain.csproj"
               }
             }
           }
@@ -189,15 +198,15 @@
               "target": "Package",
               "version": "[5.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.5, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -215,7 +224,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

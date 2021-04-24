@@ -13,9 +13,9 @@ namespace Portal.Domain.Entities
 
         public virtual Course Course { get; set; }
 
-        public int CourseLessonId { get; set; }
+        public int? CourseLessonId { get; set; }
 
-        public virtual CourseLesson CourseLesson { get; set; }
+        //public virtual CourseLesson CourseLesson { get; set; }
 
         public bool  IsFinished { get; set; }
 

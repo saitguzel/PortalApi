@@ -6,7 +6,7 @@ using Portal.Infrastructure.Persistence.EntityFramework;
 
 namespace Portal.Application.System
 {
-	public static class ServiceCollectionExtensions
+    public static class ServiceCollectionExtensions
 	{
         public static IServiceCollection InjectApplicationServices(this IServiceCollection services)
         {
@@ -18,7 +18,7 @@ namespace Portal.Application.System
         // api startup içerisinden çağrılır.
         public static IServiceCollection AddCustomizedDataStore(this IServiceCollection services,IConfiguration configuration)
         {
-            services.AddDbContext<PortalDbContext>(options => options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"),b=> b.MigrationsAssembly("Portal.Infrastructure")));
+            services.AddDbContext<PortalDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),b=> b.MigrationsAssembly("Portal.Infrastructure")));
             services.AddScoped<DbContext>(provider => provider.GetService<PortalDbContext>());
             return services;
         }

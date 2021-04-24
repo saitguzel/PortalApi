@@ -12,6 +12,6 @@ namespace Portal.Domain.Entities
         public int CourseId { get; set; }
         public virtual Course Course { get; set; }
 
-        public virtual ICollection<CourseAction>  CourseActions { get; set; }
+        //public virtual ICollection<CourseAction> CourseActions { get; set; }
     }
 }
