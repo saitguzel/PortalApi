@@ -390,6 +390,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.2",
           "Portal.Domain": "1.0.0"
         },
         "compile": {
@@ -1127,7 +1128,8 @@
     ]
   },
   "packageFolders": {
-    "/home/guzel/.nuget/packages/": {}
+    "/home/guzel/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1138,6 +1140,9 @@
       "packagesPath": "/home/guzel/.nuget/packages/",
       "outputPath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.API/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/home/guzel/.nuget/NuGet/NuGet.Config"
       ],
@@ -1206,7 +1211,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

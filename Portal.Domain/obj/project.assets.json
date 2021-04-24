@@ -8,7 +8,8 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/home/guzel/.nuget/packages/": {}
+    "/home/guzel/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -19,6 +20,9 @@
       "packagesPath": "/home/guzel/.nuget/packages/",
       "outputPath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Domain/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/home/guzel/.nuget/NuGet/NuGet.Config"
       ],

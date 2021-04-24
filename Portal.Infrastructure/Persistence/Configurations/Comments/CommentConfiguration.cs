@@ -11,7 +11,8 @@ namespace Portal.Infrastructure.Persistence.Configurations.Comments
         {
             builder.Property(x=>x.ArticleId).IsRequired();
             builder.Property(x=>x.CommentText).IsRequired().HasMaxLength((int)MaxLengthSize.Description);
-            builder.Property(x=> new { x.CommenterName,x.CommentEmail}).IsRequired().HasMaxLength((int)MaxLengthSize.EmailAddress);
+            builder.Property(x=>  x.CommenterName).IsRequired().HasMaxLength((int)MaxLengthSize.EmailAddress);
+            builder.Property(x=> x.CommentEmail).IsRequired().HasMaxLength((int)MaxLengthSize.EmailAddress);
             
 
         }

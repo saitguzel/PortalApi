@@ -9,7 +9,9 @@ namespace Portal.Infrastructure.Persistence.Configurations.Cources
     {
         public void Configure(EntityTypeBuilder<CourseAction> builder)
         {
-            builder.Property(s => new { s.UserId, s.CourseId, s.CourseLessonId }).IsRequired();
+            builder.Property(s => s.UserId).IsRequired();
+            builder.Property(s => s.CourseId).IsRequired();
+            builder.Property(s => s.CourseLessonId ).IsRequired();
         }
     }
 }

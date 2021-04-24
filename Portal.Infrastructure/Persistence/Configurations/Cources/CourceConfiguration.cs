@@ -13,7 +13,8 @@ namespace Portal.Infrastructure.Persistence.Configurations.Cources
             builder.Property(x=>x.Description).IsRequired().HasMaxLength((int)MaxLengthSize.Description);
             builder.Property(x=>x.ShortDescription).IsRequired().HasMaxLength((int)MaxLengthSize.ShortDescription);
             builder.Property(x=>x.MetaTitle).IsRequired().HasMaxLength((int)MaxLengthSize.MetaTitle);
-            builder.Property(x=>new { x.MetaDescription, x.MetaKeywords}).IsRequired().HasMaxLength((int)MaxLengthSize.MetaDescription);
+            builder.Property(x=>x.MetaDescription).IsRequired().HasMaxLength((int)MaxLengthSize.MetaDescription);
+            builder.Property(x=> x.MetaKeywords).IsRequired().HasMaxLength((int)MaxLengthSize.MetaDescription);
             
         }
     }

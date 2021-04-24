@@ -29,6 +29,7 @@ namespace Portal.API
         {
             services.InjectApplicationServices();
             services.AddCustomizedDataStore(Configuration);
+            
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

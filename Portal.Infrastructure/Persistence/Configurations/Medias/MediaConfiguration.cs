@@ -9,7 +9,8 @@ namespace Portal.Infrastructure.Persistence.Configurations.Medias
     {
         public void Configure(EntityTypeBuilder<Media> builder)
         {
-			builder.Property(x=> new { x.FileName, x.Caption}).IsRequired().HasMaxLength((int)MaxLengthSize.Name);
+			builder.Property(x=> x.FileName).IsRequired().HasMaxLength((int)MaxLengthSize.Name);
+			builder.Property(x=>  x.Caption).IsRequired().HasMaxLength((int)MaxLengthSize.Name);
 			builder.Property(x=>x.MediaType).IsRequired();
         }
     }

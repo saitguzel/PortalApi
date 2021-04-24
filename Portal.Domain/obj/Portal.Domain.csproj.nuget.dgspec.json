@@ -13,6 +13,9 @@
         "packagesPath": "/home/guzel/.nuget/packages/",
         "outputPath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.Domain/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/home/guzel/.nuget/NuGet/NuGet.Config"
         ],
