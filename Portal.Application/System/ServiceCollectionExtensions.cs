@@ -4,6 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Portal.Infrastructure.Persistence;
 using Portal.Infrastructure.Persistence.EntityFramework;
 using Microsoft.OpenApi.Models;
+using AutoMapper;
+using System.Reflection;
 
 namespace Portal.Application.System
 {
@@ -21,6 +23,12 @@ namespace Portal.Application.System
         {
             services.AddDbContext<PortalDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),b=> b.MigrationsAssembly("Portal.Infrastructure")));
             services.AddScoped<DbContext>(provider => provider.GetService<PortalDbContext>());
+            return services;
+        }
+
+        public static IServiceCollection AddApplication(this IServiceCollection services)
+        {
+            services.AddAutoMapper(Assembly.GetExecutingAssembly()); // aynı dll de olanları regisiter eder
             return services;
         }
 

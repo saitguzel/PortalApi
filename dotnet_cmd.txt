@@ -1,0 +1,69 @@
+
+1-folder içerisinde
+dotnet new solution
+
+2-Solution’ı oluşturduktan sonra projelerimizi oluşturalım.
+dotnet new webapi -o Portal.API
+dotnet new classlib -o Portal.Domain
+dotnet new classlib -o Portal.Infrastructure
+dotnet new classlib -o Portal.Application
+
+3-Solution’a projelerimizi ekleyelim:
+dotnet sln add Portal.Domain/Portal.Domain.csproj 
+dotnet sln add Portal.Infrastructure/Portal.Infrastructure.csproj 
+dotnet sln add Portal.Application/Portal.Application.csproj 
+dotnet sln add Portal.API/Portal.API.csproj 
+
+4- nuget packages
+dotnet add package Microsoft.EntityFrameworkCore --version 5.0.5
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.5
+
+ekstra
+-Ocelot nuget paketini ekleyelim:
+dotnet add Portal.Domain/Portal.Domain.csproj package Ocelot
+
+-----* Api projesi için
+- dotnet add package Microsoft.EntityFrameworkCore --version 5.0.5
+- dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.5
+- dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.5
+
+-----* Application Projesi için
+- dotnet add package Microsoft.Extensions.Configuration --version 5.0.0
+- dotnet add package Microsoft.Extensions.Configuration.Abstractions --version 5.0.0
+- dotnet add package Microsoft.Extensions.DependencyInjection --version 5.0.0
+- dotnet add package Microsoft.Extensions.DependencyInjection.Abstractions --version 5.0.1
+- dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL --version 5.0.2
+
+----- ef migration (İnfrastructure)
+- dotnet tool install --global dotnet-ef
+- dotnet ef migrations add first
+- dotnet ef database update
+
+build:
+    dotnet build
+clean:
+    dotnet clean
+restore:
+    dotnet restore
+watch:
+    dotnet watch --project Portal.API.csproj run
+start:
+    dotnet run --project Portal.API.csproj
+
+
+-- for Api Version
+dotnet add package Swashbuckle.AspNetCore.SwaggerGen --version 5.0.5
+dotnet add package Swashbuckle.AspNetCore.SwaggerUI --version 5.0.5
+
+-- for Form validation
+dotnet add package FluentValidation --version 9.5.2
+dotnet add package FluentValidation.AspNetCore --version 9.5.2
+
+-- for DTO
+dotnet add package AutoMapper --version 10.1.1
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 8.1.0
+
+
+
+
+

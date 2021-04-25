@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yCyhr/TSBKcgBmoGM02egUYmn1fCSlxXSfvTYaPE2mwK3ZWLJ/Y7p9UCwi2uB4QMOQn9OSh8Weis/v1GoUHLmQ==",
+  "dgSpecHash": "ZSFdJ534I8xSfV9V0osugTc9L8B5xtszopQP/6BmfhK3jXqf73a+r2XLYAw2QiycIVaqMMNxZP8fpj6g6Jcg6g==",
   "success": true,
   "projectFilePath": "/home/guzel/Documents/CoreSamples/Portal-API/Portal.API/Portal.API.csproj",
   "expectedPackageFiles": [
+    "/home/guzel/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/guzel/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "/home/guzel/.nuget/packages/fluentvalidation/9.5.2/fluentvalidation.9.5.2.nupkg.sha512",
     "/home/guzel/.nuget/packages/fluentvalidation.aspnetcore/9.5.2/fluentvalidation.aspnetcore.9.5.2.nupkg.sha512",
     "/home/guzel/.nuget/packages/fluentvalidation.dependencyinjectionextensions/9.5.2/fluentvalidation.dependencyinjectionextensions.9.5.2.nupkg.sha512",
@@ -74,7 +76,7 @@
     "/home/guzel/.nuget/packages/system.private.datacontractserialization/4.3.0/system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "/home/guzel/.nuget/packages/system.private.uri/4.3.2/system.private.uri.4.3.2.nupkg.sha512",
     "/home/guzel/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
-    "/home/guzel/.nuget/packages/system.reflection.emit/4.3.0/system.reflection.emit.4.3.0.nupkg.sha512",
+    "/home/guzel/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/home/guzel/.nuget/packages/system.reflection.emit.ilgeneration/4.3.0/system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "/home/guzel/.nuget/packages/system.reflection.emit.lightweight/4.3.0/system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "/home/guzel/.nuget/packages/system.reflection.extensions/4.3.0/system.reflection.extensions.4.3.0.nupkg.sha512",
